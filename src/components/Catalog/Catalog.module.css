@@ -1,0 +1,33 @@
+.catalogContainer {
+  display: flex;
+  flex-direction: row;
+}
+.catalogDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+.catalogButton {
+  width: 145px;
+  height: 56px;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  border: 1px solid rgba(71, 84, 103, 0.2);
+  color: #101828;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: -0.08px;
+  background: none;
+}
+.catalogButton:hover,
+.catalogButton:focus {
+  border: 1px solid #e44848;
+}

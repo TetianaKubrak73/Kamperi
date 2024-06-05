@@ -1,0 +1,126 @@
+.form {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 448px;
+  /*height: 532px; */
+  border-radius: 10px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+}
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+.formTitle {
+  color: #101828;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.formText {
+  color: #475467;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.formInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+.formInput {
+  display: flex;
+
+  padding-left: 18px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+  border-radius: 10px;
+
+  background: #f7f7f7;
+  width: 400px;
+  height: 56px;
+
+  color: rgba(16, 24, 40, 0.6);
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25em;
+}
+.formInputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.formDateInputContainer {
+  position: relative;
+}
+
+.formDateInputContainer input[type="date"] {
+  padding-right: 40px;
+}
+
+.calendarIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("../../image/calendar-icon.svg");
+  background-size: cover;
+  cursor: pointer;
+}
+.formComment {
+  width: 400px;
+  height: 114px;
+  display: flex;
+  padding-left: 18px;
+  padding-top: 18px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #f7f7f7;
+  color: rgba(16, 24, 40, 0.6);
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25em;
+}
+.formButton {
+  display: flex;
+  padding: 16px 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  background: #e44848;
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: -0.08px;
+}

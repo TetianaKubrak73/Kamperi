@@ -1,0 +1,68 @@
+.detailsDiv {
+  display: flex;
+  width: 430px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.detailsTitle {
+  color: #101828;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.detailsItem {
+  color: #101828;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+.categoriesDiv {
+  display: flex;
+  width: 430px;
+  height: 200px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.categoriesItem {
+  display: flex;
+  padding: 12px 18px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: #f2f4f7;
+  mix-blend-mode: multiply;
+  color: #101828;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25em;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #101828;
+}
+.featuresForm {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.featuresWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 44px;
+}

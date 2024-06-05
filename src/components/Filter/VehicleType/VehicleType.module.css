@@ -1,0 +1,56 @@
+.vehicleTypeContainer {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin-bottom: 64px;
+}
+.filterHr {
+  width: 360px;
+  height: 0px;
+  stroke-width: 1px;
+  stroke: rgba(16, 24, 40, 0.1);
+  margin-left: 0;
+}
+.title {
+  color: #101828;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+.radioContainer {
+  display: flex;
+  flex-direction: row;
+  width: 360px;
+  align-items: flex-end;
+  gap: 10px;
+}
+.radioLabel {
+  display: flex;
+  flex-direction: column;
+  height: 95px;
+  padding: 17px 24px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+  mix-blend-mode: multiply;
+  color: #101828;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25em;
+  cursor: pointer;
+}
+.radioInput {
+  display: none;
+}
+
+.icon {
+  width: 40px;
+  height: 28px;
+}

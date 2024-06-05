@@ -1,0 +1,16 @@
+.homeDiv {
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #475467;
+}
+
+.homeText {
+  font-size: 18.5px;
+}
+.homeImage {
+  max-width: 100%;
+}

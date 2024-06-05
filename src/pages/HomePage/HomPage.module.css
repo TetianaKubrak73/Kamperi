@@ -1,0 +1,13 @@
+/* body {
+  background: url("../../public/image/camper-going-on-vacation.jpg") no-repeat
+    center center fixed;
+} */
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}

@@ -1,0 +1,129 @@
+.cartDiv {
+  display: flex;
+  width: 888px;
+  /* height: 358px; */
+  padding: 24px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 20px;
+  border: 1px solid rgba(16, 24, 40, 0.2);
+
+  background: #fff;
+}
+.cartWrap {
+  display: flex;
+  width: 526px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.iconFavorite {
+  width: 24px;
+  height: 24px;
+  fill: #101828;
+  cursor: pointer;
+}
+.iconFavorite.active {
+  fill: red;
+  cursor: pointer;
+}
+.iconLocation {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+.iconStar {
+  width: 16px;
+  height: 16px;
+}
+.cartImage {
+  width: 290px;
+  height: 310px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: lightgray -57px -4.651px / 195.679% 103.001% no-repeat;
+}
+.cartContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  align-self: stretch;
+}
+.cartTitle {
+  color: #101828;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25em;
+}
+.cartPrice {
+  color: #101828;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25em;
+}
+.cartRatingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.cartRating {
+  color: #101828;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  text-decoration-line: underline;
+  margin-right: 16px;
+}
+.cartLocation {
+  color: #101828;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.cartText {
+  color: #475467;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+.cartCategories {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+.cartButton {
+  display: flex;
+  padding: 16px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 200px;
+  background: #e44848;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: -0.08px;
+}
+.cartButton:hover,
+:focus {
+  background: #d84343;
+}
